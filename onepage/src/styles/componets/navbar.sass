@@ -1,0 +1,24 @@
+@use '../variables'
+
+nav 
+    width: auto
+    height: 49px
+    padding: 0 20px
+    
+    .navbar-container ul
+        display: flex
+        justify-content: center
+        margin: 2%
+        align-items: center
+        gap: 40px
+        list-style: none
+        li a 
+            text-decoration: none
+            color: variables.$secundario
+            font-size: 1.3rem
+            font-family: 'Poppins', sans-serif
+            font-weight: 400
+            transition: color 0.3s ease
+            &:hover
+                color: #8a5e5e
+
